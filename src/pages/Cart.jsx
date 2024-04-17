@@ -52,7 +52,7 @@ const Cart = () => {
         ) :
         (<div className="w-full flex justify-center mt-40">
           
-          <NavLink to='/'>
+          <NavLink to='/shopping-cart-app'>
             <button className="w-max mt-3 rounded-md bg-green-600 py-1 px-3 text-white hover:bg-green-700 text-xl font-bold">
               Shop Now
             </button>
