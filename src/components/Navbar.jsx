@@ -21,7 +21,7 @@ const Navbar = () => {
           <NavLink to='/shopping-cart-app'>
             <p className="text-white text-lg font-semibold">Home</p>
           </NavLink>
-          <NavLink to='/cart'>
+          <NavLink to='/shopping-cart-app/cart'>
             <div className="relative">
               <FaShoppingCart className="text-white text-2xl"/>
               {
