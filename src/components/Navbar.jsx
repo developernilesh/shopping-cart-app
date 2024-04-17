@@ -11,14 +11,14 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-slate-800 py-1 fixed top-0">
       <div className="w-11/12 max-w-[1178px] mx-auto flex flex-row justify-between items-center">
-        <NavLink to='/'>
+        <NavLink to='/shopping-cart-app'>
           <div>
             <img src={logoImage} className="w-[50px]" id="logo-img"/>
           </div>
         </NavLink>
 
         <div className="flex items-center gap-8">
-          <NavLink to='/'>
+          <NavLink to='/shopping-cart-app'>
             <p className="text-white text-lg font-semibold">Home</p>
           </NavLink>
           <NavLink to='/cart'>
